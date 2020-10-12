@@ -1,6 +1,6 @@
 @font-face {
   font-family: Lansdowne;
-  src: url(fonts/Lansdowne.otf);
+  src: url(lansdowne/Lansdowne\ DEMO.otf);
 }
 
 body {
@@ -43,8 +43,8 @@ body {
   left: -20px;
   background-color: #C1666B;
   padding-right: 15px;
-
 }
+
 
 #about {
   top: 80px;
