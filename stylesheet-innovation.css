@@ -161,7 +161,7 @@ body {
     border-radius: 50%;
 }
 
-.bilderad {
+.bildetekst1 {
   background-color: white;
   width: 500px;
   border: solid 5px #32021F;
@@ -175,6 +175,19 @@ body {
   color: #41463D;
 }
 
+.bildetekst2 {
+  background-color: white;
+  width: 500px;
+  border: solid 5px #32021F;
+  padding: 10px;
+  margin-top: 30px; 
+  margin-left: 120px;
+  margin-bottom: 10px;
+  left: 10px; 
+  right: 10px;
+  font: Areal;
+  color: #41463D;
+}
 
 .table {
   border-collapse: seperate;
