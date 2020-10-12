@@ -153,6 +153,7 @@ body {
 
 .bilde {
     margin: 20px;
+    justify-content: space-around;
 }
 
 .bilde-img {
