@@ -10,7 +10,12 @@ body {
     margin-left: 0px;
     font-family:Arial, Helvetica, sans-serif;
 }
-
+#page-wrap { 
+  position: relative; 
+  max-width: 1100px;
+  margin-left: 120px;
+  margin-right: 20px;
+}
 .header {
     position: relative; 
     background-color: #C1666B;
@@ -23,11 +28,10 @@ body {
     padding-top: 25px;
     padding-bottom: 25px;
     font-family: Lansdowne;
-
   }
 
 #mySidenav a {
-  position: absolute;
+  position: fixed;
   left: -130px;
   transition: 0.3s;
   padding: 15px;
@@ -44,6 +48,8 @@ body {
   background-color: #C1666B;
   padding-right: 15px;
 }
+
+
 
 
 #about {
@@ -72,47 +78,32 @@ body {
     background-color: #32021F;
 }
 
-.border1 {
+.border1, .border1-5 {
   display: flex;
   justify-content: center;
     background-color: #41463D;
-    width: 1100px;
+    width: 100%;
     border: solid 5px #32021F;
     padding: 10px;
     margin-top: 30px; 
-    margin-left: 120px;
     margin-bottom: 10px;
     left: 10px;
     right: 10px;
-    font: Areal;
     color: white;
 }
 
 .border1-5 {
-  display: flex;
-  justify-content: center;
-    background-color: #41463D;
-    width: 1100px;
-    border: solid 5px #32021F;
-    padding: 10px; 
-    margin-left: 120px;
-    margin-bottom: 10px;
     margin-top: 80px;
-    left: 10px;
-    right: 10px;
-    font: Areal;
-    color: white;
 }
 
 .border2 {
   /*display: flex;
   justify-content: center;*/
   background-color: white;
-  width: 1100px;
+  width: 100%;
   border: solid 5px #32021F;
   padding: 10px;
   margin-top: 30px; 
-  margin-left: 120px;
   margin-bottom: 10px;
   left: 10px; 
   right: 10px;
@@ -124,11 +115,10 @@ body {
   /*display: flex;
   justify-content: center;*/
   background-color: #F5D491;
-  width: 1100px;
+  width: 100%;
   border: solid 1px white;
   padding: 10px;
   margin-top: 30px; 
-  margin-left: 120px;
   margin-bottom: 10px;
   left: 10px; 
   right: 10px;
@@ -146,13 +136,13 @@ body {
 .bilderad {
     display: flex;
     justify-content: center;
-    font: 400 25px/1.5 'Pacifico', Helvetica, sans-serif;
-    color: #2b2b2b;
-    text-shadow: 1px 1px 0px #ededed, 2px 2px 0px rgba(0,0,0,0.15);
+    width: 100%;
+    justify-content: space-around;
+    1padding-right: 20px;
   }
 
 .bilde {
-    margin: 20px;
+    1margin: 20px;
 }
 
 .bilde-img {
@@ -167,32 +157,20 @@ body {
   justify-content: space-around;
 }
 
-.bildetekst1 {
+.bildetekst1, .bildetekst2 {
   background-color: white;
-  width: 500px;
+  width: 40%;
   border: solid 5px #32021F;
   padding: 10px;
   margin-top: 30px; 
-  margin-left: 120px;
   margin-bottom: 10px;
   left: 10px; 
   right: 10px;
-  font: Areal;
   color: #41463D;
 }
 
 .bildetekst2 {
-  background-color: white;
-  width: 500px;
-  border: solid 5px #32021F;
-  padding: 10px;
-  margin-top: 30px; 
-  margin-left: 120px;
-  margin-bottom: 10px;
-  left: 10px; 
-  right: 10px;
-  font: Areal;
-  color: #41463D;
+  margin-left: 30px;
 }
 
 .table {
